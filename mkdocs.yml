@@ -4,8 +4,17 @@ site_url: http://www.example.com
 
 theme:
   name: material
+  features:
+    - navigation.indexes
 
 plugins:
   - search
   - blog
   - meta
+
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Usage: usage.md
+  - Blog:
+    - blog/index.md
