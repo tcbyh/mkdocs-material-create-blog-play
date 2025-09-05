@@ -9,7 +9,9 @@ theme:
 
 plugins:
   - search
-  - blog
+  - blog:
+      archive_date_format: MM/dd/yyyy
+      archive_url_date_format: MM/dd/yyyy
   - meta
 
 nav:
