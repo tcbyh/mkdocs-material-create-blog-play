@@ -12,6 +12,9 @@ plugins:
   - blog:
       archive_date_format: MM/dd/yyyy
       archive_url_date_format: MM/dd/yyyy
+      categories_allowed:
+        - Holidays
+        - News
   - meta
 
 nav:
