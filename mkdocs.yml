@@ -10,9 +10,9 @@ theme:
 plugins:
   - search
   - blog:
-      post_slugify: !!python/object/apply:ext.slugs.slugify
-        kwds:
-          short: true
+      # post_slugify: !!python/object/apply:ext.slugs.slugify
+      #   kwds:
+      #     short: true
       blog_toc: false
       archive_date_format: MM/dd/yyyy
       archive_url_date_format: MM/dd/yyyy
