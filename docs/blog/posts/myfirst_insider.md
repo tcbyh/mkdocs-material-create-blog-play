@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2023-12-31
+  created: 2024-01-01
   updated: 2024-01-02
 readtime: 15
 pin: true

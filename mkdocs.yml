@@ -10,11 +10,19 @@ theme:
 plugins:
   - search
   - blog:
+      post_slugify: !!python/object/apply:ext.slugs.slugify
+        kwds:
+          short: true
+      blog_toc: false
       archive_date_format: MM/dd/yyyy
       archive_url_date_format: MM/dd/yyyy
       categories_allowed:
         - Holidays
         - News
+      authors_profiles: true
+      pagination_per_page: 5
+  - tags:
+      tags_file: blog/tags.md
   - meta
 
 nav:
@@ -23,3 +31,11 @@ nav:
   - Usage: usage.md
   - Blog:
     - blog/index.md
+    - Tags: blog/tags.md
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      name: squidfunk on Mastodon
+      link: https://fosstodon.org/@squidfunk
